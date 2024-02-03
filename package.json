@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node cli.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-jfs-app": "cli.js"
   },
   "keywords": [],
   "author": "Juan Alphonso D. Maligad",
@@ -13,6 +18,7 @@
     "commander": "^12.0.0",
     "ejs": "^3.1.9",
     "fs-extra": "^11.2.0",
-    "inquirer": "^9.2.13"
+    "inquirer": "^9.2.13",
+    "url": "^0.11.3"
   }
 }
